@@ -1,0 +1,122 @@
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+                padding: 0;
+                font-size: small;
+            }
+            
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            a {
+                text-decoration: none;
+                color: #626262;
+            }
+            
+            a:hover {
+                text-decoration: underline;
+            }
+            
+            li {
+                list-style-type: none;
+            }
+            /* .top-nav {
+    margin-right: 50px;
+} */
+            
+            .top-right {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            
+            .top-right ul li {
+                float: left;
+                margin: 20px 20px 0 0;
+            }
+            
+            .top-left {
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+            
+            .top-left ul li {
+                float: left;
+                margin: 20px 0 0 20px;
+            }
+            
+            .container {
+                clear: both;
+                text-align: center;
+                margin-bottom: 467px;
+                /* background: red; */
+            }
+            
+            .container img {
+                padding-top: 200px;
+            }
+            
+            input[type=text] {
+                width: 484px;
+                height: 45px;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+                border-radius: 30px;
+                margin-top: 30px;
+                box-shadow: none;
+                border: 1px solid #e4e2e2;
+            }
+            
+            input[type=submit] {
+                padding: 10px;
+                border: 1px solid #f5f5f5;
+                border-radius: 5px;
+                background: #f5f5f5;
+                color: #6d6c6c;
+                font-size: 14px;
+                margin: 20px 5px;
+                cursor: pointer;
+            }
+            
+            input[type=submit]:hover {
+                border: 1px solid #dad8d8;
+            }
+            
+            input[type=text]:hover {
+                box-shadow: .5px .5px 6px 0.3px #ccc;
+            }
+            
+            .bottom-right {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            
+            .bottom-right ul li {
+                float: left;
+                margin: 20px 20px 0 0;
+            }
+            
+            .bottom-left {
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+            
+            .bottom-left ul li {
+                float: left;
+                margin: 20px 0 20px 20px;
+            }
+            
+            footer {
+                background: #f2f2f2;
+                position: fixed;
+                width: 100%;
+                bottom: 0;
+                height: 50px;
+                border-top: 1px solid #e4e4e4;
+            }
