@@ -60,7 +60,7 @@
             }
             
             input[type=text] {
-                width: 550px;
+                width: 600px;
                 height: 45px;
                 padding: 12px 20px;
                 margin: 8px 0;
@@ -70,7 +70,9 @@
                 box-shadow: none;
                 border: 1px solid #e4e2e2;
                 background: url("google-mic-icon.png") no-repeat scroll right;
-                background-size: 22px 22px;
+                background-size: 26px 26px;
+                background-position: 97% 50%;
+                ;
             }
             
             input[type=submit] {
@@ -121,4 +123,24 @@
                 bottom: 0;
                 height: 50px;
                 border-top: 1px solid #e4e4e4;
+            }
+            
+            .top-right ul li a i {
+                font-size: 18px;
+                color: #686767;
+                margin-top: -3px;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .top-right ul li a i:hover {
+                font-size: 19px;
+                color: #4b4b4b;
+            }
+            
+            .top-right ul li a img {
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                margin-top: -5px;
             }
